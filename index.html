@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <title>Rock, paper, scisors</title>
 </head>
 <body>
-
+    <h4>Make a move:</h4>
+    <button onclick="playRound('rock')">Rock</button>
+    <button onclick="playRound('paper')">Paper</button>
+    <button onclick="playRound('scisors')">Scisors</button>
+    <div id="results">
+        <h4>Results</h4>
+        <p id="round-result"></p>
+        <p id="score"></p>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
